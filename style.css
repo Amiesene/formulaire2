@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+img{
+   width: 400px; 
+   height: 532px;
+}
+.item2{
+    /* flex-wrap: wrap; */
+    background: rgb(27, 27, 27);
+    width: 400px; 
+    height: 532px;
+}
+.sous-item{
+margin:60px;
+}
+.item2 h4{
+    color: white;
+}
+.item2 p{
+      color: rgb(233, 211, 171);
+      font-size: 10px;
+
+      margin-bottom: 3px;
+}
+.input ::placeholder{
+    color: white;
+    font-size: 10px;
+}
+.input1{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:1px solid rgb(236, 206, 150)  ;
+    background: rgb(27, 27, 27);
+    margin-bottom: 30px;
+    padding: 5px;
+    width: 230px;
+}
+.input1 ::placeholder{
+    /* margin-bottom: 5px; */
+    /* gap: 10px; */
+}
+.input .fleche{
+     filter:  brightness(1000%) contrast(0%);
+     /* margin-right: 60px; */
+     margin: -15px;
+     /* margin-top:5px ; */
+     margin-bottom: 3px;
+}
+.input2{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(27, 27, 27);
+    margin-bottom: 30px;
+    width: 230px;
+    padding: 5px;
+    
+}
+.input-trois{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(27, 27, 27)
+}
+.input3{
+    background: rgb(27, 27, 27);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 30px;
+    width: 230px;
+    padding: 5px;
+}
+.input4{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgb(27, 27, 27);
+    margin-bottom: 30px;
+    width: 230px;
+    padding: 5px;
+}
+.input img{
+    /* display: flex; */
+    width: 10px;
+    height: 10px;
+    /* margin-bottom: 150px; */
+}
+/* .input4{
+    display: flex;
+
+    flex-wrap: wrap;
+} */
+.para1 p{
+    color: white;
+    margin-bottom: 1px;
+}
+.ronds .rond1{
+    background: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin: 10px;
+}
+.ronds{
+    display: flex;
+}
+.petit-rond{
+    background:rgb(236, 206, 150) ;
+    width: 80px;
+    height:30px ;
+    border-radius: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.rond2{
+    background: black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-top: 1px;
+}
+.ronds .rond3{
+    background: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin: 10px;
+}
+.ronds .rond4{
+    background: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin: 10px;
+}
+.ronds .rond5{
+    background: white;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: black;
+    margin: 10px;
+}
+.input button{
+    background:rgb(236, 206, 150) ;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 30px;
+}
+.input .para2{
+     font-size: 9px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container{
+        flex-direction: column;
+        height: 150vh;
+    }
+    .item2{
+        width: 400px; 
+        height: 532px;
+    }
+    .item1 img {
+        width: 400px; 
+        height: 532px;
+    }
+}
